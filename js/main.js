@@ -314,7 +314,7 @@ function download(path, callback) {
 	req.send();
 }
 
-pages = ["wiiu", "switch", "nexwiiu"];
+pages = ["3ds", "wiiu", "switch", "nexwiiu"];
 
 url = new URL(window.location.href);
 page = url.searchParams.get("page")
